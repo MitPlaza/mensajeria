@@ -1,0 +1,213 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    color: #1B1F21;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    color: gray;
+    padding: 5px;
+  }
+  .material-symbols-outlined:hover{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    color: #A491D2;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+
+  main{
+    width: 100%;
+    height: 100vh;
+    
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .sidebar{
+    width: 380px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+
+ 
+  }
+
+  .sidebar .usuario{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .sidebar .usuario .card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .sidebar .usuario .Tiny-thumbnail{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  .sidebar .usuario .card h5{
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .sidebar .usuario .card span{
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+
+  .sidebar .boton{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+
+.sidebar .btn{
+  text-align: center;
+  padding: 15px 25px;
+  background-color: #A491D2;
+}
+
+.sidebar .btn:hover{
+    background-color: #CDC3E6;
+}
+.sidebar .btn:active{
+        background-color: #BEC1BB;
+}
+
+.sidebar .btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+  .sidebar .boton{
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .chatscreen{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  }
+
+  .chatscreen img{
+    width: 250px;
+  }
+
+  .chatscreen h1{
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .chatscreen span{
+    max-width: 400px;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  @media (max-width: 640px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+
+      }
+      .chatscreen h1{
+        font-weight: 400;
+        font-size: 40px;
+        text-align: center;
+      }
+    
+      .chatscreen span{
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+      }
+  }
+ 
+
+  
+
+  .sidebar .card{
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    border-bottom: 1px solid #ccc;
+
+  }
+
+  .sidebar .card:first-child{
+    border-bottom: 0px solid #ccc;
+
+  }
+
+  .sidebar .card:hover{
+    background-color: #E8ebe4;
+  }
+
+  .sidebar .card img{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    margin: 10px;
+
+
+  }
+
+  .sidebar .card h5{
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .sidebar .card span{
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+
+ 
